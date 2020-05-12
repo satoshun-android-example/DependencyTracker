@@ -12,5 +12,10 @@ repositories {
 }
 
 dependencies {
-  implementation(gradleApi())
+  api("org.jetbrains.kotlin:kotlin-gradle-plugin:1.3.72")
+  api(gradleApi())
+}
+
+apply {
+  plugin("java-gradle-plugin")
 }

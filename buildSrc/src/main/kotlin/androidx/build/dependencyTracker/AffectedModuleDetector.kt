@@ -112,7 +112,7 @@ abstract class AffectedModuleDetector {
             }
             logger.info("setup: enabled: $enabled")
             gradle.addBuildListener(object : BuildAdapter() {
-                override fun projectsEvaluated(gradle: Gradle?) {
+                override fun projectsEvaluated(gradle: Gradle) {
                     logger.lifecycle("projects evaluated")
                     AffectedModuleDetectorImpl(
                             rootProject = rootProject,
