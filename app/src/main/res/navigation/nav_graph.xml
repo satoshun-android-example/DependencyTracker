@@ -1,0 +1,36 @@
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:id="@+id/nav_graph"
+  app:startDestination="@id/nav_home">
+
+  <fragment
+    android:id="@+id/nav_home"
+    android:name="com.github.satoshun.example.main.MainFragment"
+    tools:layout="@layout/main_frag" />
+
+  <fragment
+    android:id="@+id/nav_property_values_holder"
+    android:name="com.github.satoshun.example.main.propertyvalues.PropertyValuesHolderFragment" />
+
+  <fragment
+    android:id="@+id/nav_property_animator"
+    android:name="com.github.satoshun.example.main.ViewPropertyAnimatorFragment" />
+
+  <fragment
+    android:id="@+id/nav_value_animator"
+    android:name="com.github.satoshun.example.main.ValueAnimatorFragment" />
+
+  <fragment
+    android:id="@+id/nav_transition_manager"
+    android:name="com.github.satoshun.example.main.transitionmanager.TransitionManagerFragment" />
+
+  <fragment
+    android:id="@+id/nav_icon_animation"
+    android:name="com.github.satoshun.example.main.iconanimation.IconAnimationFragment" />
+
+  <fragment
+    android:id="@+id/nav_scale_icon_animation"
+    android:name="com.github.satoshun.example.main.scale.ScaleFragment"
+    tools:layout="@layout/scale_icon_frag" />
+</navigation>

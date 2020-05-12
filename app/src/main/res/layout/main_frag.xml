@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:layout_margin="16dp"
+  android:layout_marginStart="32dp"
+  android:layout_marginEnd="32dp"
+  android:orientation="vertical">
+
+  <Button
+    android:id="@+id/property_values"
+    android:layout_width="match_parent"
+    android:layout_height="64dp"
+    android:layout_marginTop="16dp"
+    android:text="PropertyValuesHolder"
+    tools:ignore="HardcodedText" />
+
+  <Button
+    android:id="@+id/property_animator"
+    android:layout_width="match_parent"
+    android:layout_height="64dp"
+    android:layout_marginTop="16dp"
+    android:text="ViewPropertyAnimator"
+    tools:ignore="HardcodedText" />
+
+  <Button
+    android:id="@+id/value_animator"
+    android:layout_width="match_parent"
+    android:layout_height="64dp"
+    android:layout_marginTop="16dp"
+    android:text="ValueAnimator"
+    tools:ignore="HardcodedText" />
+
+  <Button
+    android:id="@+id/transition_manager"
+    android:layout_width="match_parent"
+    android:layout_height="64dp"
+    android:layout_marginTop="16dp"
+    android:text="TransitionManager"
+    android:transitionName="transitionManager_button"
+    tools:ignore="HardcodedText" />
+
+  <Button
+    android:id="@+id/icon_animation2"
+    android:layout_width="match_parent"
+    android:layout_height="64dp"
+    android:layout_marginTop="16dp"
+    android:text="Icon Animation"
+    tools:ignore="HardcodedText" />
+
+  <Button
+    android:id="@+id/icon_scale"
+    android:layout_width="match_parent"
+    android:layout_height="64dp"
+    android:layout_marginTop="16dp"
+    android:text="Icon Scale Animation"
+    tools:ignore="HardcodedText" />
+</LinearLayout>
